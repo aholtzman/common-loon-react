@@ -64,6 +64,10 @@ const OuterBox = styled.div`
 
   const Wrap = styled.div`
     padding-top: 50px;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 5;
   `
 
   const Hero = () => {
