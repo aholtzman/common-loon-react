@@ -73,7 +73,7 @@ const OuterBox = styled.div`
           <Flicker>common loon</Flicker>
         </InnerBox>
         <OuterBox />
-    </Wrap>
+      </Wrap>
     );
   }
 
