@@ -6,7 +6,7 @@ injectGlobal`
 
   body {
     font-family: 'Quicksand', sans-serif;
-    background-color: black;
+    background-color: white;
     margin: 0;
   }
 `

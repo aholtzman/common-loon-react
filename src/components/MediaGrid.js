@@ -11,9 +11,10 @@ const Grid = styled.div`
   grid-template-rows: 80px 40px 80px;
   grid-template-columns: 80px 40px 80px;
   grid-column-start: 1;
-  grid-column-end: 2
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  z-index: 5;
 `
 const MediaGrid = () => {
     return (

@@ -5,7 +5,8 @@ import styled from 'styled-components'
 
 const Link = styled(A)`
   text-decoration: none;
-  color: red;
+  color: #282828;
+  font-size: 22px;
 `
 
 const VRound = styled(RoundDiv)`

@@ -2,22 +2,20 @@ import React from 'react'
 import styled from 'styled-components'
 
 import HomeGrid from '../components/HomeGrid'
+import BG from '../components/BG'
 
-const BG = styled.div`
-  background: url(${require('../images/assets/bg.jpg')});
-  height: 100vh;
-  color: white;
+const HomeBG = styled(BG)`
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 `
 
 const Home = () => {
   return(
-    <BG>
+    <HomeBG>
       <HomeGrid />
-      <h1>home page</h1>
-    </BG>
+    </HomeBG>
   )
 }
 

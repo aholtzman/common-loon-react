@@ -7,18 +7,15 @@ import Shop from './Shop'
 import Hero from './Hero'
 
 const Grid = styled.div`
-  height: 100%;
-  width: 100%;
   display: grid;
   grid-template-rows: 200px 120px 110px 70px 50px;
-  grid-template-columns: 172px 28px 205px 120px 19px 28px 92;
+  grid-template-columns: 172px 28px 205px 120px 19px 28px 92px;
 `
 const HomeGrid = () => {
     return (
       <Grid>
         <Hero />
         <MediaGrid />
-        <Video />
         <About />
         <Shop />
       </Grid>

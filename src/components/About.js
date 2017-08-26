@@ -5,7 +5,8 @@ import styled from 'styled-components'
 
 const Link = styled(A)`
   text-decoration: none;
-  color: green;
+  color: #282828;
+  font-size: 22px;
 `
 
 const ARound = styled(RoundDiv)`
@@ -13,6 +14,7 @@ const ARound = styled(RoundDiv)`
   grid-column-end: 8;
   grid-row-start: 2;
   grid-row-end: 3;
+  z-index: 5;
 `
 
 const About = () => {

@@ -5,9 +5,7 @@ const Flicker = styled.h1`
   animation: flicker 4s linear infinite;
   color: transparent;
   text-align: center;
-  line-height: 300px;
-  text-align: center;
-  padding-top: 50px;
+  line-height: 290px;
 
   @keyframes flicker {
     from { text-shadow: white 0 0 1px; }
@@ -49,25 +47,20 @@ const InnerBox = styled.div`
   top: 0;
   left: 0;
   position: absolute;
-  z-index: 3;
+  z-index: 2;
 `
 
-const OuterBox = styled.div`
-  width: 400px;
-  height: 500px;
-  display: block;
-  position: relative;
-  margin: auto;
-  z-index: 1;
-  background: url(${require('../images/assets/twoinone.jpg')});
-  `
-
   const Wrap = styled.div`
-    padding-top: 50px;
-    grid-column-start: 3;
-    grid-column-end: 8;
+    width: 400px;
+    height: 500px;
+    display: block;
+    position: relative;
+    background: url(${require('../images/assets/twoinone.jpg')});
+    grid-column-start: 2;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 5;
+    z-index: 1;
   `
 
   const Hero = () => {
@@ -76,7 +69,6 @@ const OuterBox = styled.div`
         <InnerBox>
           <Flicker>common loon</Flicker>
         </InnerBox>
-        <OuterBox />
       </Wrap>
     );
   }

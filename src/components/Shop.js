@@ -5,7 +5,8 @@ import styled from 'styled-components'
 
 const Link = styled(A)`
   text-decoration: none;
-  color: red;
+  color: #282828;
+  font-size: 22px;
 `
 
 const SRound = styled(RoundDiv)`
@@ -13,6 +14,7 @@ const SRound = styled(RoundDiv)`
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 6;
+  z-index: 5;
 `
 
 const Shop = () => {
