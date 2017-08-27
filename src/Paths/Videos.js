@@ -7,7 +7,6 @@ const Vids = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 35px;
-  padding-bottom: 60px;
 
   h5 {
     color: white;
@@ -15,22 +14,30 @@ const Vids = styled.div`
   }
 `
 
+const Video = styled.div`
+  iframe {
+    width: 560px;
+    height: 315px;
+
+    @media (max-width: 570px) {
+      width: auto;
+      height: auto;
+    }
+  }
+`
+
 const Videos = () => {
   return(
     <BG>
     <Vids>
-      <div>
-        <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/mr_agrNegt8" frameborder="0" allowfullscreen title='The Coup'></iframe>
-        </div>
-          <h5>Official Video</h5>
-        </div>
-        <div>
-          <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bQ6BJdygFWs" frameborder="0" allowfullscreen title='Landing in Greenland'></iframe>
-          </div>
-            <h5>Video by Collins Lab</h5>
-        </div>
+      <Video>
+        <iframe src="https://www.youtube.com/embed/mr_agrNegt8"  allowFullScreen title='The Coup'></iframe>
+        <h5>Official Video</h5>
+      </Video>
+      <Video>
+        <iframe src="https://www.youtube.com/embed/bQ6BJdygFWs"  allowFullScreen title='Landing in Greenland'></iframe>
+        <h5>Video by Collins Lab</h5>
+      </Video>
     </Vids>
   </BG>
   )

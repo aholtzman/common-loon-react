@@ -13,6 +13,11 @@ const Wrapper = styled.div`
   h3 {
     color: white;
   }
+
+  @media (max-width: 850px) {
+    width: 320px;
+    padding-top: 0;
+  }
 `
 
 export default Wrapper

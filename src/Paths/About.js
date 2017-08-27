@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const TexWrap = styled.div`
+  width: 80%;
   max-width: 600px;
   line-height: 20px;
   margin: auto;

@@ -8,6 +8,12 @@ const Cover = styled.div`
   background: url(${require('../images/assets/cover2017.png')});
   height: 350px;
   width: 350px;
+  background-position: center;
+
+  @media (max-width: 850px) {
+    width: 320px;
+    height: 320px;
+  }
 `
 
 const playlist = [{
