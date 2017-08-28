@@ -3,21 +3,18 @@ import styled from 'styled-components'
 import AudioPlayer from 'react-responsive-audio-player'
 import '../music/audioplayer.css'
 import Wrapper from '../components/AlbumWrap'
+import AlbumCover from '../components/AlbumCover'
 
-const Cover = styled.div`
+const Cover = styled(AlbumCover)`
   background: url(${require('../images/assets/cover2010.png')});
-  height: 350px;
-  width: 350px;
-  background-position: center;
-
-  @media (max-width: 850px) {
-    width: 320px;
-    height: 320px;
-  }
 `
 
 const Wrapper1 = styled(Wrapper)`
   margin-top: 20px;
+
+  @media (max-width: 325px) {
+    margin-top: 5;
+  }
 `
 
 const playlist = [{

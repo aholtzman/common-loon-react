@@ -14,9 +14,13 @@ const Wrapper = styled.div`
     color: white;
   }
 
-  @media (max-width: 850px) {
-    width: 320px;
+  @media (max-width: 425px) {
+    width: 350px;
     padding-top: 0;
+  }
+
+  @media (max-width: 325px) {
+    width: 300px;
   }
 `
 

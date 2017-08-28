@@ -3,18 +3,7 @@ import styled from 'styled-components'
 import AudioPlayer from 'react-responsive-audio-player'
 import '../music/audioplayer.css'
 import Wrapper from '../components/AlbumWrap'
-
-const Cover = styled.div`
-  background: url(${require('../images/assets/cover2017.png')});
-  height: 350px;
-  width: 350px;
-  background-position: center;
-
-  @media (max-width: 850px) {
-    width: 320px;
-    height: 320px;
-  }
-`
+import AlbumCover from '../components/AlbumCover'
 
 const playlist = [{
   url: require('../music/2017.01.mp3'),
@@ -54,7 +43,7 @@ const playlist = [{
 const Album2 = () => {
   return(
     <Wrapper>
-      <Cover><h2>{playlist.displayText}</h2></Cover>
+      <AlbumCover><h2>{playlist.displayText}</h2></AlbumCover>
       <h3>Common Loon (2017)</h3>
       <AudioPlayer playlist={playlist} />
     </Wrapper>
