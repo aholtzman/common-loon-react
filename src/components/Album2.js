@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import AudioPlayer from 'react-responsive-audio-player'
 import '../music/audioplayer.css'
 import Wrapper from '../components/AlbumWrap'

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Link = styled(A)`
   text-decoration: none;
-  color: #282828;
+  color: white;
   font-size: 22px;
 `
 

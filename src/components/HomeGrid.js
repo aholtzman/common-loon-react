@@ -1,4 +1,3 @@
-
 import React from 'react'
 import styled from 'styled-components'
 import MediaGrid from './MediaGrid'
@@ -10,6 +9,12 @@ const Grid = styled.div`
   display: grid;
   grid-template-rows: 200px 120px 110px 70px 50px;
   grid-template-columns: 172px 28px 205px 120px 19px 28px 92px;
+
+  @media (max-width: 750px) {
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
 `
 const HomeGrid = () => {
     return (
