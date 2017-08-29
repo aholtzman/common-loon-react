@@ -11,9 +11,7 @@ const Grid = styled.div`
   grid-template-columns: 172px 28px 205px 120px 19px 28px 92px;
 
   @media (max-width: 750px) {
-    opacity: 0;
-    height: 0;
-    width: 0;
+    display: none;
   }
 `
 const HomeGrid = () => {

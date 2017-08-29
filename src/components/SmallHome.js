@@ -14,16 +14,13 @@ const InnerBox = styled.div`
 `
 
 const Wrapper = styled.div`
-  opacity: 0;
-  height: 0;
-  width: 0;
+  display: none;
 
   @media (max-width: 750px) {
-    opacity: 1;
+    display: flex;
     height: 100%;
     width: 100%;
     overflow: hidden;
-    display: flex;
     flex-direction: column;
   }
 `
