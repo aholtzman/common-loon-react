@@ -19,6 +19,7 @@ class App extends Component {
             <Route path='/about' component={About}/>
             <Route path='/shop' component={Shop}/>
             <Route path='/*' component={Home} />
+            <Route component={Home} />
           </Switch>
         </Router>
     );

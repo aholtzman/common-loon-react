@@ -12,12 +12,12 @@ const ProductWrap = styled.div`
   margin-bottom: 25px;
   border: 1px solid grey;
 
-  h2 {
+  h3 {
     color: white;
     text-align: center;
   }
 
-  h3 {
+  h5 {
     color: white;
     margin-left: 10px;
     text-align: center;
