@@ -16,7 +16,7 @@ const InnerBox = styled.div`
     height: 500px;
     display: block;
     position: relative;
-    background: url(${require('../images/assets/twoinone.jpg')});
+    background: url(${require('../images/assets/CLgiff500px.gif')});
     grid-column-start: 2;
     grid-column-end: 7;
     grid-row-start: 1;
