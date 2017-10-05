@@ -4,10 +4,10 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid grey;
+  border: 1px solid dimgrey;
   height: 100%;
   width: 500px;
-  background-color: #222;
+  background-color: #101010;
   padding-top: 30px;
 
   h3 {

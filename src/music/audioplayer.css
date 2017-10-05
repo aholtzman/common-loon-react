@@ -104,7 +104,7 @@
   -webkit-box-direction: normal;
           flex-direction: row;
   height: 50px;
-  background-color: #333;
+  background-color: #151515;
   width: 100%;
   /* http://codepen.io/aralon/pen/NqGWXZ */ }
   .audio_player .audio_controls {
@@ -205,7 +205,7 @@
     background-color: transparent;
     width: 0;
     height: 0;
-    border-right: 20px solid #333;
+    border-right: 20px solid #151515;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     transition: -webkit-transform 0.25s ease;
