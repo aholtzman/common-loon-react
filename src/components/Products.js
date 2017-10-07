@@ -7,6 +7,8 @@ const Display = styled.div`
   justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
 `
 
 export default class Products extends Component {
