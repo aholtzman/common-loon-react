@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import BackButton from '../components/BackButton'
 
 const TexWrap = styled.div`
   width: 80%;
@@ -12,6 +13,8 @@ const TexWrap = styled.div`
 
 const About = () => {
   return(
+    <div>
+    <BackButton />
     <TexWrap>
       <p><strong>"Common Loon.", Identification, All About Birds. The Cornell Lab of Ornithology, n.d. Web. 25 Aug. 2016.</strong><br></br><br></br>
         The eerie calls of Common Loons<sup>1</sup> echo across clear lakes of the northern wilderness<sup>2</sup>. Summer adults are regally patterned<sup>3</sup> in black and white<sup>4</sup>. In winter, they are plain gray above and white below<sup>5</sup>, and you&rsquo;ll find them close to shore on most seacoasts<sup>6</sup> and a good many inland reservoirs and lakes<sup>7</sup>. Common Loons are powerful, agile divers that catch small fish in fast underwater chases<sup>8</sup>. They are less suited to land<sup>9</sup>, and typically come ashore only to nest<sup>10</sup>.
@@ -76,6 +79,8 @@ const About = () => {
         <sup>10</sup>&emsp;our city's  break ing un der thenight&emsp;you keepon a path that leads youright back-in- side.
       </p>
     </TexWrap>
+    <BackButton />
+    </div>
   )
 }
 

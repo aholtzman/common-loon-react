@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import BG from '../components/BG'
+import BackButton from '../components/BackButton'
 
 const Vids = styled.div`
   display: flex;
@@ -29,6 +30,7 @@ const Video = styled.div`
 const Videos = () => {
   return(
     <BG>
+    <BackButton />
     <Vids>
       <Video>
         <iframe src="https://www.youtube.com/embed/mr_agrNegt8"  allowFullScreen title='The Coup'></iframe>

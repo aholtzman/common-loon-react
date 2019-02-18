@@ -43,7 +43,7 @@ const Album2 = () => {
   return(
     <Wrapper>
       <AlbumCover><h2>{playlist.displayText}</h2></AlbumCover>
-      <h3>Common Loon (2017)</h3>
+      <h3>Common Loon (2019)</h3>
       <AudioPlayer playlist={playlist} />
     </Wrapper>
   )
