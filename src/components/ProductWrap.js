@@ -10,7 +10,7 @@ const ProductWrap = styled.div`
   margin: auto;
   margin-top: 25px;
   margin-bottom: 25px;
-  border: 1px solid grey;
+  border: 1px solid transparent;
 
   h3 {
     color: white;

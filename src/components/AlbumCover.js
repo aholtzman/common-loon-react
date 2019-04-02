@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const AlbumCover = styled.div`
-  background: url(${require('../images/assets/cover2017.png')});
+  background: url(${require('../images/assets/cover2019.jpg')});
   height: 350px;
   width: 350px;
   background-position: center;

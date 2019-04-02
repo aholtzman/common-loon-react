@@ -1,8 +1,9 @@
 import React from 'react'
 import RoundDiv from './Round'
+import { Link as A } from 'react-router-dom'
 import styled from 'styled-components'
 
-const Link = styled.a`
+const Link = styled(A)`
   text-decoration: none;
   color: white;
   font-size: 22px;
@@ -18,7 +19,7 @@ const SRound = styled(RoundDiv)`
 
 const Shop = () => {
   return (
-    <SRound><Link href='https://squareup.com/store/common-loon' target="_blank">shop</Link></SRound>
+    <SRound><Link to='/shop'>shop</Link></SRound>
   );
 }
 
