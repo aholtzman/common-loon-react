@@ -33,7 +33,7 @@ export default class ProductGallery extends Component {
       <div>
       <Headline>Visit our Bandcamp Page for secure downloads and to buy CD's & Vinyl</Headline>
       <Products data={this.props.data} />
-      <Text>If you live in Champaign Urbana and would like a record hand-delivered free of charge, email us at <a href="mailto:commonloonmusic@gmail.com">commonloonmusic@gmail.com</a></Text>
+      <Text>If you live in Champaign-Urbana, and would like to buy a record directly from Common Loon (which we will hand-deliver free of charge), email us at <a href="mailto:commonloonmusic@gmail.com">commonloonmusic@gmail.com</a></Text>
       </div>
     );
   }
